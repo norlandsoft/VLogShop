@@ -1,0 +1,21 @@
+{
+  "name": "vlog-shop",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "max dev",
+    "build": "max build"
+  },
+  "dependencies": {
+    "@ant-design/pro-components": "^2.7.0",
+    "antd": "^5.16.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.74",
+    "@types/react-dom": "^18.2.24",
+    "@umijs/max": "^4.1.8",
+    "typescript": "^5.4.4"
+  }
+}
