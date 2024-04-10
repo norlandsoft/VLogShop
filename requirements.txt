@@ -1,3 +1,12 @@
 # web
-fastapi
-uvicorn
+flask
+gunicorn
+
+# 工具
+dateparser
+
+# tools 依赖
+pytube
+youtube-search-python
+moviepy
+pydub

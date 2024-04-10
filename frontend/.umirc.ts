@@ -8,5 +8,5 @@ export default defineConfig({
       component: "@/layouts/BasicLayout"
     }
   ],
-  outputPath: "../webui",
+  outputPath: "../static",
 });
