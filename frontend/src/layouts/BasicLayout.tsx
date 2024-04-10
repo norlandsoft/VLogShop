@@ -1,17 +1,15 @@
 import React, {useEffect} from "react";
 import { connect } from 'umi';
 import {ConfigProvider, message} from 'antd';
-import Search from '@/pages/Search';
+import MenuBar from "./MenuBar";
+import WorkContent from "./WorkContent";
 
 import '../global.less';
 
 const BasicLayout: React.FC = (props: any) => {
 
   const {
-    dispatch,
-    global: {
-      frameSize
-    }
+    dispatch
   } = props;
   
   const handleWindowResize = () => {
@@ -41,9 +39,12 @@ const BasicLayout: React.FC = (props: any) => {
   }, []);
 
   return (
-    <div>
-      <Search/>
-    </div>
+    <ConfigProvider
+      prefixCls="air"
+    >
+      <MenuBar />
+      <WorkContent />
+    </ConfigProvider>
   );
 }
 
