@@ -8,7 +8,7 @@
         "src/.umi/*"
       ],
       "air-design": [
-        "node_modules/air-design"
+        "node_modules/air-design/src/*"
       ],
       "umi": [
         "node_modules/umi"
@@ -34,6 +34,7 @@
     "noImplicitAny": false
   },
   "include": [
+    "node_modules/air-design/src/**/*",
     "src/**/*",
     ".umirc.ts",
     "module.d.ts",

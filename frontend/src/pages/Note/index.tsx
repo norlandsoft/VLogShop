@@ -1,5 +1,5 @@
 import React from "react";
-import {Button} from '@/components/air-design';
+import {Button} from 'air-design';
 
 const Note: React.FC = () => {
   return (
