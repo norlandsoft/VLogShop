@@ -25,19 +25,13 @@ const MenuBar: React.FC = (props: any) => {
   const menuItems = [
     {
       id: 'note',
-      title: '笔记',
+      title: '文案',
       icon: 'wiki',
       role: 'user'
     },
     {
-      id: 'bookmark',
-      title: '书签',
-      icon: 'bookmarks',
-      role: 'user'
-    },
-    {
       id: 'tool',
-      title: '工具箱',
+      title: '工具',
       icon: 'tool',
       role: 'user'
     },

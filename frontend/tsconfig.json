@@ -7,6 +7,9 @@
       "@@/*": [
         "src/.umi/*"
       ],
+      "air-design": [
+        "node_modules/air-design"
+      ],
       "umi": [
         "node_modules/umi"
       ],
