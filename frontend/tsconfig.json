@@ -7,14 +7,14 @@
       "@@/*": [
         "src/.umi/*"
       ],
-      "air-design": [
-        "node_modules/air-design/src/*"
-      ],
       "umi": [
         "node_modules/umi"
       ],
       "umi/typings": [
         "src/.umi/typings"
+      ],
+      "aird": [
+        "node_modules/air-design/aird"
       ]
     },
     "module": "ES2022",
@@ -34,7 +34,6 @@
     "noImplicitAny": false
   },
   "include": [
-    "node_modules/air-design/src/**/*",
     "src/**/*",
     ".umirc.ts",
     "module.d.ts",

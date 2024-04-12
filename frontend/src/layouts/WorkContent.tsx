@@ -2,8 +2,6 @@ import React from 'react';
 import {connect} from 'umi';
 import styles from './WorkContent.less';
 
-import Bookmark from '@/pages/Bookmark';
-import Note from '@/pages/Note';
 import Error404 from "./Error404";
 
 const WorkContent: React.FC = (props: any) => {
@@ -18,9 +16,9 @@ const WorkContent: React.FC = (props: any) => {
         (() => {
           switch (currentPage) {
             case 'note':
-              return <Note/>;
+              return <Error404/>;
             case 'bookmark':
-              return <Bookmark/>;
+              return <Error404/>;
             default:
               return <Error404/>;
           }

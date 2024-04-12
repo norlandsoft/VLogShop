@@ -7,15 +7,10 @@
     "build": "max build"
   },
   "dependencies": {
-    "air-design": "git+https://github.com/norlandsoft/AirDesign.git",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-style-proptype": "^3.2.2"
+    "air-design": "git+https://github.com/norlandsoft/AirDesign.git"
   },
   "devDependencies": {
-    "@types/react": "^18.2.74",
-    "@types/react-dom": "^18.2.24",
     "@umijs/max": "^4.1.8",
-    "typescript": "^5.4.4"
+    "typescript": "^5.4.5"
   }
 }

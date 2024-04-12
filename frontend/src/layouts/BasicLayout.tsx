@@ -1,6 +1,6 @@
 import React, {useEffect} from "react";
 import { connect } from 'umi';
-import {ConfigProvider, message} from 'antd';
+import {message} from 'antd';
 import MenuBar from "./MenuBar";
 import WorkContent from "./WorkContent";
 
@@ -39,12 +39,10 @@ const BasicLayout: React.FC = (props: any) => {
   }, []);
 
   return (
-    <ConfigProvider
-      prefixCls="air"
-    >
+    <div>
       <MenuBar />
       <WorkContent />
-    </ConfigProvider>
+    </div>
   );
 }
 

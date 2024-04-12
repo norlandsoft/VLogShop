@@ -1,7 +1,7 @@
 import React from "react";
 import {connect} from 'umi';
 import {Tooltip} from "antd";
-import {Icon} from 'air-design';
+import {Icons} from 'aird';
 import styles from './MenuBar.less';
 
 const MenuBar: React.FC = (props: any) => {
@@ -42,7 +42,7 @@ const MenuBar: React.FC = (props: any) => {
       {
         menuItems.map(item => {
           return (
-            <Tooltip placement="right" title={item.title} arrow={false} mouseEnterDelay={0.2} mouseLeaveDelay={0}
+            <Tooltip placement="right" title={item.title} mouseEnterDelay={0.2} mouseLeaveDelay={0}
                      destroyTooltipOnHide={true} overlayInnerStyle={{fontSize: 13, fontWeight: 600, borderRadius: 3}}
                      key={item.id}
             >
@@ -52,7 +52,7 @@ const MenuBar: React.FC = (props: any) => {
                     currentPage === item.id ?
                       <div className={styles.selected}/> : null
                   }
-                  <Icon name={item.icon} size={22} thickness={1.5}/>
+                  <Icons name={item.icon} size={22} thickness={1.5}/>
                 </div>
               </div>
             </Tooltip>
@@ -60,7 +60,7 @@ const MenuBar: React.FC = (props: any) => {
         })
       }
       <div className={styles.bottomButtons}>
-        <Tooltip placement="right" title={'设置'} arrow={false} mouseEnterDelay={0.2} mouseLeaveDelay={0}
+        <Tooltip placement="right" title={'设置'} mouseEnterDelay={0.2} mouseLeaveDelay={0}
                      destroyTooltipOnHide={true} overlayInnerStyle={{fontSize: 13, fontWeight: 600, borderRadius: 3}}
                      key={'setting'}
             >
@@ -70,7 +70,7 @@ const MenuBar: React.FC = (props: any) => {
                     currentPage === 'setting' ?
                       <div className={styles.selected}/> : null
                   }
-                  <Icon name={'settings'} size={22} thickness={1.5}/>
+                  <Icons name={'settings'} size={22} thickness={1.5}/>
                 </div>
               </div>
             </Tooltip>
