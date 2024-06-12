@@ -1,5 +1,5 @@
 {
-  "name": "vlog-shop",
+  "name": "writer-ai-ui",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,7 +7,6 @@
     "build": "max build"
   },
   "dependencies": {
-    "air-design": "git+https://github.com/norlandsoft/AirDesign.git"
   },
   "devDependencies": {
     "@umijs/max": "^4.1.8",
