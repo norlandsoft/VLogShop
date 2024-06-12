@@ -18,5 +18,5 @@ export default defineConfig({
     'aird': resolve(__dirname, 'src/components/air-design'),
   },
   base: "/",
-  outputPath: "../static",
+  outputPath: "../writer/static",
 });
